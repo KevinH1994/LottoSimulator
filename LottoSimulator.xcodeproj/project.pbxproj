@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C879CD128B8E51B00C80F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C879CD028B8E51B00C80F5D /* AppDelegate.swift */; };
+		3C879CD328B8E51B00C80F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C879CD228B8E51B00C80F5D /* SceneDelegate.swift */; };
+		3C879CD528B8E51B00C80F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C879CD428B8E51B00C80F5D /* ViewController.swift */; };
+		3C879CD828B8E51B00C80F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C879CD628B8E51B00C80F5D /* Main.storyboard */; };
+		3C879CDA28B8E51D00C80F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C879CD928B8E51D00C80F5D /* Assets.xcassets */; };
+		3C879CDD28B8E51D00C80F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C879CDB28B8E51D00C80F5D /* LaunchScreen.storyboard */; };
+		3C879CE828B8E51D00C80F5D /* LottoSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C879CE728B8E51D00C80F5D /* LottoSimulatorTests.swift */; };
+		3C879CF228B8E51D00C80F5D /* LottoSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C879CF128B8E51D00C80F5D /* LottoSimulatorUITests.swift */; };
+		3C879CF428B8E51D00C80F5D /* LottoSimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C879CF328B8E51D00C80F5D /* LottoSimulatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C879CE428B8E51D00C80F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C879CC528B8E51B00C80F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C879CCC28B8E51B00C80F5D;
+			remoteInfo = LottoSimulator;
+		};
+		3C879CEE28B8E51D00C80F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C879CC528B8E51B00C80F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C879CCC28B8E51B00C80F5D;
+			remoteInfo = LottoSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C879CCD28B8E51B00C80F5D /* LottoSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C879CD028B8E51B00C80F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C879CD228B8E51B00C80F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C879CD428B8E51B00C80F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C879CD728B8E51B00C80F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C879CD928B8E51D00C80F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C879CDC28B8E51D00C80F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C879CDE28B8E51D00C80F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C879CE328B8E51D00C80F5D /* LottoSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C879CE728B8E51D00C80F5D /* LottoSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoSimulatorTests.swift; sourceTree = "<group>"; };
+		3C879CED28B8E51D00C80F5D /* LottoSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C879CF128B8E51D00C80F5D /* LottoSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoSimulatorUITests.swift; sourceTree = "<group>"; };
+		3C879CF328B8E51D00C80F5D /* LottoSimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoSimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C879CCA28B8E51B00C80F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C879CE028B8E51D00C80F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C879CEA28B8E51D00C80F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C879CC428B8E51B00C80F5D = {
+			isa = PBXGroup;
+			children = (
+				3C879CCF28B8E51B00C80F5D /* LottoSimulator */,
+				3C879CE628B8E51D00C80F5D /* LottoSimulatorTests */,
+				3C879CF028B8E51D00C80F5D /* LottoSimulatorUITests */,
+				3C879CCE28B8E51B00C80F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C879CCE28B8E51B00C80F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C879CCD28B8E51B00C80F5D /* LottoSimulator.app */,
+				3C879CE328B8E51D00C80F5D /* LottoSimulatorTests.xctest */,
+				3C879CED28B8E51D00C80F5D /* LottoSimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C879CCF28B8E51B00C80F5D /* LottoSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				3C879CD028B8E51B00C80F5D /* AppDelegate.swift */,
+				3C879CD228B8E51B00C80F5D /* SceneDelegate.swift */,
+				3C879CD428B8E51B00C80F5D /* ViewController.swift */,
+				3C879CD628B8E51B00C80F5D /* Main.storyboard */,
+				3C879CD928B8E51D00C80F5D /* Assets.xcassets */,
+				3C879CDB28B8E51D00C80F5D /* LaunchScreen.storyboard */,
+				3C879CDE28B8E51D00C80F5D /* Info.plist */,
+			);
+			path = LottoSimulator;
+			sourceTree = "<group>";
+		};
+		3C879CE628B8E51D00C80F5D /* LottoSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C879CE728B8E51D00C80F5D /* LottoSimulatorTests.swift */,
+			);
+			path = LottoSimulatorTests;
+			sourceTree = "<group>";
+		};
+		3C879CF028B8E51D00C80F5D /* LottoSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C879CF128B8E51D00C80F5D /* LottoSimulatorUITests.swift */,
+				3C879CF328B8E51D00C80F5D /* LottoSimulatorUITestsLaunchTests.swift */,
+			);
+			path = LottoSimulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C879CCC28B8E51B00C80F5D /* LottoSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C879CF728B8E51D00C80F5D /* Build configuration list for PBXNativeTarget "LottoSimulator" */;
+			buildPhases = (
+				3C879CC928B8E51B00C80F5D /* Sources */,
+				3C879CCA28B8E51B00C80F5D /* Frameworks */,
+				3C879CCB28B8E51B00C80F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottoSimulator;
+			productName = LottoSimulator;
+			productReference = 3C879CCD28B8E51B00C80F5D /* LottoSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C879CE228B8E51D00C80F5D /* LottoSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C879CFA28B8E51D00C80F5D /* Build configuration list for PBXNativeTarget "LottoSimulatorTests" */;
+			buildPhases = (
+				3C879CDF28B8E51D00C80F5D /* Sources */,
+				3C879CE028B8E51D00C80F5D /* Frameworks */,
+				3C879CE128B8E51D00C80F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C879CE528B8E51D00C80F5D /* PBXTargetDependency */,
+			);
+			name = LottoSimulatorTests;
+			productName = LottoSimulatorTests;
+			productReference = 3C879CE328B8E51D00C80F5D /* LottoSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C879CEC28B8E51D00C80F5D /* LottoSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C879CFD28B8E51D00C80F5D /* Build configuration list for PBXNativeTarget "LottoSimulatorUITests" */;
+			buildPhases = (
+				3C879CE928B8E51D00C80F5D /* Sources */,
+				3C879CEA28B8E51D00C80F5D /* Frameworks */,
+				3C879CEB28B8E51D00C80F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C879CEF28B8E51D00C80F5D /* PBXTargetDependency */,
+			);
+			name = LottoSimulatorUITests;
+			productName = LottoSimulatorUITests;
+			productReference = 3C879CED28B8E51D00C80F5D /* LottoSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C879CC528B8E51B00C80F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3C879CCC28B8E51B00C80F5D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3C879CE228B8E51D00C80F5D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3C879CCC28B8E51B00C80F5D;
+					};
+					3C879CEC28B8E51D00C80F5D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3C879CCC28B8E51B00C80F5D;
+					};
+				};
+			};
+			buildConfigurationList = 3C879CC828B8E51B00C80F5D /* Build configuration list for PBXProject "LottoSimulator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C879CC428B8E51B00C80F5D;
+			productRefGroup = 3C879CCE28B8E51B00C80F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C879CCC28B8E51B00C80F5D /* LottoSimulator */,
+				3C879CE228B8E51D00C80F5D /* LottoSimulatorTests */,
+				3C879CEC28B8E51D00C80F5D /* LottoSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C879CCB28B8E51B00C80F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C879CDD28B8E51D00C80F5D /* LaunchScreen.storyboard in Resources */,
+				3C879CDA28B8E51D00C80F5D /* Assets.xcassets in Resources */,
+				3C879CD828B8E51B00C80F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C879CE128B8E51D00C80F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C879CEB28B8E51D00C80F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C879CC928B8E51B00C80F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C879CD528B8E51B00C80F5D /* ViewController.swift in Sources */,
+				3C879CD128B8E51B00C80F5D /* AppDelegate.swift in Sources */,
+				3C879CD328B8E51B00C80F5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C879CDF28B8E51D00C80F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C879CE828B8E51D00C80F5D /* LottoSimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C879CE928B8E51D00C80F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C879CF428B8E51D00C80F5D /* LottoSimulatorUITestsLaunchTests.swift in Sources */,
+				3C879CF228B8E51D00C80F5D /* LottoSimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C879CE528B8E51D00C80F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C879CCC28B8E51B00C80F5D /* LottoSimulator */;
+			targetProxy = 3C879CE428B8E51D00C80F5D /* PBXContainerItemProxy */;
+		};
+		3C879CEF28B8E51D00C80F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C879CCC28B8E51B00C80F5D /* LottoSimulator */;
+			targetProxy = 3C879CEE28B8E51D00C80F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C879CD628B8E51B00C80F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C879CD728B8E51B00C80F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C879CDB28B8E51D00C80F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C879CDC28B8E51D00C80F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C879CF528B8E51D00C80F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C879CF628B8E51D00C80F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C879CF828B8E51D00C80F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LottoSimulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.KevinHering.LottoSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C879CF928B8E51D00C80F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LottoSimulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.KevinHering.LottoSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C879CFB28B8E51D00C80F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.KevinHering.LottoSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottoSimulator.app/LottoSimulator";
+			};
+			name = Debug;
+		};
+		3C879CFC28B8E51D00C80F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.KevinHering.LottoSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottoSimulator.app/LottoSimulator";
+			};
+			name = Release;
+		};
+		3C879CFE28B8E51D00C80F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.KevinHering.LottoSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LottoSimulator;
+			};
+			name = Debug;
+		};
+		3C879CFF28B8E51D00C80F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.KevinHering.LottoSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LottoSimulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C879CC828B8E51B00C80F5D /* Build configuration list for PBXProject "LottoSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C879CF528B8E51D00C80F5D /* Debug */,
+				3C879CF628B8E51D00C80F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C879CF728B8E51D00C80F5D /* Build configuration list for PBXNativeTarget "LottoSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C879CF828B8E51D00C80F5D /* Debug */,
+				3C879CF928B8E51D00C80F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C879CFA28B8E51D00C80F5D /* Build configuration list for PBXNativeTarget "LottoSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C879CFB28B8E51D00C80F5D /* Debug */,
+				3C879CFC28B8E51D00C80F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C879CFD28B8E51D00C80F5D /* Build configuration list for PBXNativeTarget "LottoSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C879CFE28B8E51D00C80F5D /* Debug */,
+				3C879CFF28B8E51D00C80F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C879CC528B8E51B00C80F5D /* Project object */;
+}
